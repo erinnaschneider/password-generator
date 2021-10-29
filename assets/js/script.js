@@ -9,10 +9,24 @@ function howLong() {
 };
 
 function passwordRequirements () {
+  var saidYes = [];
   var lowerCase = window.confirm("Would you like to use lowercase letters?");
   if (lowerCase) {
-    
+     saidYes = saidYes.push(/[a-z]/);
   }
+
+  var upperCase = window.confirm("Would you like to use uppercase letters?");
+  if (upperCase) {
+    saidYes = saidYes.push(/[A-Z]/);
+  }
+
+  var useNumbers = window.confirm("Would you like to use numbers?");
+  if (useNumbers) {
+    saidYes = saidYes.push(/\d/)
+  }
+
+  var specialCharacters = window.confirm("Would you like to use special characters?");
+    saidYes = saidYes.push("!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_");
 }
 
 function generatePassword () {
