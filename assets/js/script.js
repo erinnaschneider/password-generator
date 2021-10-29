@@ -34,6 +34,10 @@ function passwordRequirements () {
     if (useSpecial) {
     saidYes = saidYes.concat(specialCharacters);
   }
+   
+  if (!lowerCase && !upperCase && !useNumbers && !useSpecial) {
+    var pickSomething = window.alert("You need to pick at least one option!")
+  }
 
   return saidYes;
 }
