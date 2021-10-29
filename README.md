@@ -1,8 +1,8 @@
 # Password Generator
 
 ## This is a password generator. 
- * You can select your desired length of password. It *must* between 8 and 128 characters.
- * Passwords may include lowercase, uppercase, numbers, and special characters. Users *must* choose at least one option.
+ * You can select your desired length of password. It **must** between 8 and 128 characters.
+ * Passwords may include lowercase, uppercase, numbers, and special characters. Users **must** choose at least one option.
  * After the user makes selections, the randomly generated password is displayed on the screen.
 
 ## You can access the password generator at: 
