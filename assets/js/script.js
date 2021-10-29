@@ -43,9 +43,22 @@ function generatePassword () {
   if (passwordLength === null) {
     return null
   };
+  parseInt(passwordLength);
   var passwordReqs = passwordRequirements();
-  console.log(passwordReqs);
+  var finishedYes = [];
+
+  for (var i = 0; i < passwordLength; i++) {
+    var x = Math.floor(Math.random() * passwordReqs.length);
+    var choseYes = passwordReqs[x];
+    finishedYes = finishedYes.concat(choseYes);
+  }
+
+  
+  return finishedYes.join("");
+
 };
+
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
