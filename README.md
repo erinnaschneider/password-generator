@@ -9,6 +9,6 @@
 https://erinnaschneider.github.io/password-generator/
 
 ## Screenshot
-![image](https://user-images.githubusercontent.com/90404513/139500301-26865049-d966-4a88-b6bc-9abb807f9d54.png)
+![image](https://user-images.githubusercontent.com/90404513/139502073-cd407b59-7532-4097-98af-91f0e86db5f5.png)
 
 ## Made by ♥️ Erinn S.
